@@ -19,7 +19,7 @@ body{
     height: 40%;
     width: 20%;
     padding: 20px;
-    gap: 50px;
+    gap: 55px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;   
     background: linear-gradient(to right, #fbc2eb, #a6c1ee);
@@ -46,10 +46,26 @@ body{
 }
 #btn:hover{
     background-color: rgb(235, 59, 59);
-    padding: 12px;
+    width: 75px;
 }
 #result{
     padding: 10px;
     background: transparent;
     font-size: 20px;
+    text-align: center;
+}
+#changer{
+    position: absolute;
+    height: 25px;
+    width: 50px;
+    border: none;
+    background-color:gray;
+    color: white;
+    border-radius: 10px;
+}
+#changer:hover{
+    height: 28px;
+    width: 53px;
+    color: rgb(108, 108, 108);
+    background-color: antiquewhite;
 }
